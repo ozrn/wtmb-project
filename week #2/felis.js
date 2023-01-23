@@ -1,4 +1,4 @@
-module.export = class FelisCatus {
+module.exports = class FelisCatus {
   constructor(sex, age, breed) {
     this.sex = sex;
     this.age = age;
