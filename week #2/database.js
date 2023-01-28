@@ -1,5 +1,8 @@
+const fs = require("fs");
+
 const save = function (data) {
-  console.log(data);
+  fs.writeFileSync("felis-data.json", JSON.stringify(data));
+  //console.log(data);
 };
 
 const load = function (data) {
