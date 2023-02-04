@@ -17,4 +17,7 @@ module.exports = class Person {
       `Yay! This ${kitty.sex} ${kitty.breed} has just found a new family.`
     );
   }
+  static create({ name, email, phoneNum }) {
+    return new Person(name, email, phoneNum);
+  }
 };

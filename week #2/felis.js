@@ -4,4 +4,7 @@ module.exports = class FelisCatus {
     this.age = age;
     this.breed = breed;
   }
+  static create({ sex, age, breed }) {
+    return new FelisCatus(sex, age, breed);
+  }
 };
