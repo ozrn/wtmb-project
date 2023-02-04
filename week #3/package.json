@@ -1,0 +1,19 @@
+{
+  "name": "wtmb-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozrn/wtmb-project.git"
+  },
+  "author": "Kevser Ozeren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozrn/wtmb-project/issues"
+  },
+  "homepage": "https://github.com/ozrn/wtmb-project#readme"
+}
